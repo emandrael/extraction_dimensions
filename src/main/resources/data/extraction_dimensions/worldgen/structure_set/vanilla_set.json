@@ -1,0 +1,12 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1234567,
+    "spacing": 20,
+    "separation": 8
+  },
+  "structures": [
+    { "structure": "minecraft:village_plains", "weight": 2 },
+    { "structure": "minecraft:shipwreck",      "weight": 1 }
+  ]
+}

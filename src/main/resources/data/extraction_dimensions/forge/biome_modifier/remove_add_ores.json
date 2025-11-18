@@ -1,0 +1,18 @@
+{
+  "type": "forge:remove_features",
+  "biomes": "#yourmodid:my_dim_biomes",
+  "features": [
+    "minecraft:ore_coal_lower",
+    "minecraft:ore_coal_upper",
+    "minecraft:ore_emerald",
+    "minecraft:ore_diamond"
+  ],
+  "steps": [
+    "underground_ores"
+  ],
+  "match_rules": {
+    "dimensions": [
+      "extraction_dimensions:iron_world"
+    ]
+  }
+}

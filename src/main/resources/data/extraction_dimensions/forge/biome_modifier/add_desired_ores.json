@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#yourmodid:my_dim_biomes",
+  "features": [
+    "extraction_dimensions:ore_iron_dense",
+    "minecraft:ore_copper",
+    "minecraft:ore_gold_lower"
+  ],
+  "step": "underground_ores",
+  "match_rules": {
+    "dimensions": [
+      "extraction_dimensions:iron_world"
+    ]
+  }
+}

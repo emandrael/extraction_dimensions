@@ -1,0 +1,18 @@
+{
+  "type": "extraction_dimensions:iron_world",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "seed": 0,
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "preset": "minecraft:overworld"
+    },
+    "structures": {
+      "stronghold": {},
+      "structure_overrides": [
+        "extraction_dimensions:vanilla_set"
+      ]
+    }
+  }
+}

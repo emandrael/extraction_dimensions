@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#yourmodid:my_dim_biomes",
+  "biomes": "#minecraft:is_overworld",
   "features": [
     "extraction_dimensions:ore_iron_dense",
     "minecraft:ore_copper",

@@ -73,6 +73,8 @@ public class DimensionMod {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        MinecraftForge.EVENT_BUS.addListener(TemporaryDimensionHelper::registerCommands);
+        MinecraftForge.EVENT_BUS.addListener(TemporaryDimensionHelper::handleServerTick);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 

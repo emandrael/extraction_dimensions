@@ -1,6 +1,6 @@
 {
   "type": "forge:remove_features",
-  "biomes": "#yourmodid:my_dim_biomes",
+  "biomes": "#minecraft:is_overworld",
   "features": [
     "minecraft:ore_coal_lower",
     "minecraft:ore_coal_upper",

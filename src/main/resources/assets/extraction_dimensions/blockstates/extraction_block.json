@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "extraction_dimensions:block/extraction_block"
+        }
+    }
+}
